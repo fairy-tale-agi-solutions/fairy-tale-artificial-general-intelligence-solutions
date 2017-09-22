@@ -22,5 +22,5 @@ Douglas R. Miles:
 
 Andrey Kovtunenko:
 * Gitter: @Scotchmann
-* LinkedIn: https://www.linkedin.com/in/andrey-kovtunenko-a75b7bb7/
+* LinkedIn: https://www.linkedin.com/in/andrey-kovtunenko/
 * GitHub: https://github.com/Scotchmann
