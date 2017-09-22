@@ -1,7 +1,3 @@
-## Fairy Tale
-
-Join us in chat at: https://gitter.im/artificial-general-intelligence/Lobby
-
 ## The Fairy Tale Team
 
 Răzvan Flavius Panda:
@@ -24,3 +20,9 @@ Andrey Kovtunenko:
 * Gitter: @Scotchmann
 * LinkedIn: https://www.linkedin.com/in/andrey-kovtunenko/
 * GitHub: https://github.com/Scotchmann
+
+## Communication channels
+* Gitter AGI chat at: https://gitter.im/artificial-general-intelligence/Lobby
+* GitHub organization: https://github.com/fairy-tale-agi-solutions
+* Facebook page: https://www.facebook.com/fairy.tale.artificial.general.intelligence/
+* Meetup.com group: https://www.meetup.com/Fairy-Tale-Artificial-General-Intelligence-Solutions-Meetup/
