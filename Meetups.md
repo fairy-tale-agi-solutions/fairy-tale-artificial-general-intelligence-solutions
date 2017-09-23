@@ -1,3 +1,4 @@
+Meetup.com event: https://www.meetup.com/Fairy-Tale-Artificial-General-Intelligence-Solutions-Meetup/events/243549454/
 Time: 2017-09-23 14:32:20 UTC+00:00
 
 Participants:
