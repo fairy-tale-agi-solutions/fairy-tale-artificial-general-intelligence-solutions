@@ -27,10 +27,10 @@ Some of the stuff Răzvan Flavius Panda said while being muted and apparently do
 * If we design the AGI using symbols as the top level decision module then we can much easily prove with very high certainty the decision making logic will maintain some properties under all possible futures - such as maintaining human safety during its run time
 * Restricting non-symbolic sub-modules to not be part of taking the most important decisions would guarantee better safety
 * General Intelligence is about the same as just Intelligence - we humans set the General Intelligence right bellow where we are located on the intelligence spectrum - maybe just to feel special? heh :)
-* more humans working together manifest some properties that the parts themselves do not posses which makes humanity similar to a Super Biological General Intelligence
+* More humans working together manifest some properties that the parts themselves do not posses which makes humanity similar to a Super Biological General Intelligence
 * Languages with powerful type systems such as Haskell, Idris, Agda, etc. should be able to ensure that a large amount of bad things can be prevented from happening at compile time
 * AI systems that work using a lot of computation power to achieve single goals such as winning at go or winning at DotA without having a top level goal of being human safe could end up being potentially dangerous for humanity
 * Death by aging is the way evolution worked around the issue of bypassing the problem of a continuously changing environment and the fact that brains stop evolving after some time - they get saturated so that new born entities would be much more efficient at adapting to the changes in environment
 * Death by aging and many diseases could be solved by a safe AGI since it would be much more efficient than us at doing generally intelligent things
 
-Video recording: TODO exporting in progress
+Video recording: https://youtu.be/PLEe82BfRhM
