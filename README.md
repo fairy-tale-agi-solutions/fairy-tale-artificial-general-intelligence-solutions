@@ -1,10 +1,18 @@
 ## The Fairy Tale Team
 
 Răzvan Flavius Panda:
-* Role: I am trying to do a bit of everything as to help humanity achieve our goals of creating safe artificial general intelligence
+* Role: Founder - I am trying to do a bit of everything as to help humanity achieve our goals of creating safe artificial general intelligence
 * Gitter: @razvan-panda
 * LinkedIn: https://www.linkedin.com/in/razvan-flavius-panda/
+* Twitter: https://twitter.com/razvan_panda
 * GitHub: https://github.com/razvan-panda
+* StackOverflow:
+
+<a href="https://stackoverflow.com/users/750216/r%c4%83zvan-flavius-panda">
+<img src="https://stackoverflow.com/users/flair/750216.png?theme=dark" width="208" height="58" alt="profile for Răzvan Flavius Panda at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Răzvan Flavius Panda at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+</a>
+
+* Facebook: https://www.facebook.com/panda.razvan
 
 Jakub Pastuszek:
 * Gitter: @jpastuszek
