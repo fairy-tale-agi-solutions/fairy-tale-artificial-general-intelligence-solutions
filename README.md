@@ -1,7 +1,9 @@
 ## The Fairy Tale Team
 
 Răzvan Flavius Panda:
-* Role: Founder - I am trying to do a bit of everything as to help humanity achieve our goals of creating safe artificial general intelligence
+* Role: Founder and CEO - I am trying to do a bit of everything as to help humanity achieve our goals of creating safe artificial general intelligence
+* Email: razvan.panda@gmail.com
+* Phone: +353 877 167 241
 * Gitter: @razvan-panda
 * LinkedIn: https://www.linkedin.com/in/razvan-flavius-panda/
 * Twitter: https://twitter.com/razvan_panda
