@@ -17,19 +17,28 @@ Răzvan Flavius Panda:
 * Facebook: https://www.facebook.com/panda.razvan
 
 Jakub Pastuszek:
+* Role: System Administrator at WhatClinic.com
 * Gitter: @jpastuszek
 * LinkedIn: https://www.linkedin.com/in/jakub-pastuszek-10650031/
 * GitHub: https://github.com/jpastuszek
 
 Douglas R. Miles:
+* Role: Researcher/Programmer at Hanson Robotics and Senior Analyst at Logicmoo/Mush Corp
 * Gitter: @logicmoo
 * LinkedIn: https://www.linkedin.com/in/logicmoo/
 * GitHub: https://github.com/logicmoo
 
 Andrey Kovtunenko:
+* Role: Software Engineer at LLC "1C-Rating"
 * Gitter: @Scotchmann
 * LinkedIn: https://www.linkedin.com/in/andrey-kovtunenko/
 * GitHub: https://github.com/Scotchmann
+
+Zed Burnett:
+* Role: Independent Non-Profit Organization Management Professional
+* Gitter: @chophshiy_twitter
+* LinkedIn: https://www.linkedin.com/in/zed-burnett-a613a85/
+* Twitter: https://twitter.com/chophshiy
 
 ## Communication channels
 * Gitter AGI chat at: https://gitter.im/artificial-general-intelligence/Lobby
