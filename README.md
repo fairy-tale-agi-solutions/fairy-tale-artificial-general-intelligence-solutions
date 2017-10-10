@@ -16,6 +16,12 @@ Răzvan Flavius Panda:
 
 * Facebook: https://www.facebook.com/panda.razvan
 
+Brian McKenna:
+* Role: Functional Senior Developer at Atlassian
+* LinkedIn: https://www.linkedin.com/in/puffnfresh/
+* Twitter: https://twitter.com/puffnfresh
+* GitHub: https://github.com/puffnfresh
+
 Jakub Pastuszek:
 * Role: System Administrator at WhatClinic.com
 * Gitter: @jpastuszek
