@@ -1,8 +1,8 @@
 _General Intelligence (GI) is the intelligence of a system that could successfully perform any intellectual task that a human being can._ - adapted from Wikipedia definition of AGI
 
-Intelligence is a metric - let's say one dimensional for now
+**Intelligence** is a **metric** that measures **how efficient** a **system** is at achieving **any possible goal** under **any context**.
 
-It measures how good a system is at achieving any possible goal under any context - by convention the higher the value of the metric the better the system is at performing actions which would allow it to achieve any goal under any context
+Intelligence is a metric - let's say one dimensional for now. By convention the higher the value of the metric the more efficient the system is at performing actions which would allow it to achieve any goal under any context
 
 A system is a spatial slice of the universe
 
