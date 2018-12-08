@@ -2,8 +2,8 @@ Meetup.com event: https://www.meetup.com/Fairy-Tale-Artificial-General-Intellige
 Time: 2017-09-23 14:32:20 UTC+00:00
 
 Participants:
-* [Brian McKenna (Puffnfresh)](https://www.linkedin.com/in/puffnfresh/)
-* [Răzvan Flavius Panda](https://www.linkedin.com/in/razvan-flavius-panda/)
+* Brian McKenna (Puffnfresh)
+* Răzvan Flavius Panda
 
 Topic: Designing solutions for creating safe artificial general intelligence
 
