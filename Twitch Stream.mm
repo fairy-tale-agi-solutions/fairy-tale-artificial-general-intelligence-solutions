@@ -2,8 +2,8 @@
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
 <node TEXT="Twitch&#xa;Stream" FOLDED="false" ID="ID_1656279608" CREATED="1544219747385" MODIFIED="1544248932852" STYLE="oval">
 <font SIZE="18"/>
-<hook NAME="MapStyle" zoom="1.464">
-    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
+<hook NAME="MapStyle" zoom="0.909">
+    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -63,26 +63,37 @@
 </stylenode>
 </map_styles>
 </hook>
-<hook NAME="AutomaticEdgeColor" COUNTER="3" RULE="ON_BRANCH_CREATION"/>
+<hook NAME="AutomaticEdgeColor" COUNTER="4" RULE="ON_BRANCH_CREATION"/>
 <hook NAME="accessories/plugins/AutomaticLayout.properties" VALUE="ALL"/>
 <node TEXT="To Discuss" POSITION="left" ID="ID_1176508977" CREATED="1544219803920" MODIFIED="1544219808009">
 <edge COLOR="#ff0000"/>
 <node TEXT="Formalizing goals" ID="ID_190139588" CREATED="1544219962394" MODIFIED="1544219965558"/>
 <node TEXT="High level architectural diagram of existing AGI systems" ID="ID_1654077132" CREATED="1544222606259" MODIFIED="1544222618864"/>
 <node TEXT="Plan vs Prediction" ID="ID_1282336496" CREATED="1544222635200" MODIFIED="1544222639289"/>
-<node TEXT="High level feelings" ID="ID_222354344" CREATED="1544224952402" MODIFIED="1544233196918">
+<node TEXT="High level feelings" FOLDED="true" ID="ID_222354344" CREATED="1544224952402" MODIFIED="1544233196918">
 <node TEXT="Anger" ID="ID_1813647205" CREATED="1544224960053" MODIFIED="1544224963666"/>
 <node TEXT="Excitement" ID="ID_479419584" CREATED="1544224963941" MODIFIED="1544224966343"/>
 <node TEXT="Fear" ID="ID_885280632" CREATED="1544224969128" MODIFIED="1544224970554"/>
-<node TEXT="Happiness" ID="ID_1768734079" CREATED="1544224971228" MODIFIED="1544224973154"/>
-<node TEXT="Sadness" ID="ID_1699378384" CREATED="1544224973590" MODIFIED="1544224975354"/>
-<node TEXT="Energy (Hunger)" ID="ID_221629633" CREATED="1544225091277" MODIFIED="1544225095680"/>
+<node TEXT="Happiness &lt;-&gt;Sadness" ID="ID_1699378384" CREATED="1544224973590" MODIFIED="1544847621136"/>
+<node TEXT="Energy / Hunger" ID="ID_221629633" CREATED="1544225091277" MODIFIED="1544847631095"/>
 </node>
 <node TEXT="Defining General Intelligence" ID="ID_1964373822" CREATED="1544238750293" MODIFIED="1544238757406"/>
 <node TEXT="How do we deal with perception when evaluating a plan and/or prediction - Joe" ID="ID_487717506" CREATED="1544233293815" MODIFIED="1544233305906"/>
 </node>
-<node TEXT="Discussed" POSITION="right" ID="ID_1674917923" CREATED="1544219810520" MODIFIED="1544219813122">
+<node TEXT="Discussed" POSITION="left" ID="ID_744557926" CREATED="1544812856611" MODIFIED="1544812859665">
+<edge COLOR="#ff00ff"/>
+<node TEXT="Embodied AGI - Ronald" ID="ID_1988867455" CREATED="1544827781422" MODIFIED="1544847456031"/>
+<node TEXT="Setting goals and plans. What motivates an AGI to grow - Joe" ID="ID_1517807969" CREATED="1544827457767" MODIFIED="1544827469159"/>
+<node TEXT="Intrinsic skill producing offspring - Joe" ID="ID_1477864484" CREATED="1544830270544" MODIFIED="1544830280233"/>
+<node TEXT="Intrinsic skill cooperation - Freeman" ID="ID_1211946261" CREATED="1544830420985" MODIFIED="1544830561436"/>
+<node TEXT="What is a life form - Ronald" ID="ID_1668165180" CREATED="1544832122545" MODIFIED="1544844007119" LINK="https://en.wikipedia.org/wiki/Life#Biology"/>
+<node TEXT="Consciousness and centers of power - Freeman" ID="ID_320192653" CREATED="1544824960062" MODIFIED="1544847438419"/>
+<node TEXT="2 cycles - SM &amp; planning - Joe" ID="ID_17370575" CREATED="1544845464706" MODIFIED="1544845500216"/>
+<node TEXT="AGI creating its own hardware - Joe" ID="ID_1148761542" CREATED="1544847422539" MODIFIED="1544847429903"/>
+</node>
+<node TEXT="History" FOLDED="true" POSITION="right" ID="ID_1674917923" CREATED="1544219810520" MODIFIED="1544812872989">
 <edge COLOR="#ff0000"/>
+<node TEXT="07-12-2018" ID="ID_1967652407" CREATED="1544812882289" MODIFIED="1544812886102">
 <node TEXT="Recalculation of a plan" ID="ID_966814247" CREATED="1544225733831" MODIFIED="1544225919444">
 <node TEXT="Cost of recalculation" ID="ID_877711523" CREATED="1544225932936" MODIFIED="1544225936877"/>
 <node TEXT="Affected by feelings" ID="ID_1236019835" CREATED="1544226184333" MODIFIED="1544226191310"/>
@@ -102,6 +113,7 @@
 </node>
 <node TEXT="Binary goal score function" ID="ID_1670706774" CREATED="1544239805971" MODIFIED="1544239819025"/>
 <node TEXT="It seems to me that the biggest problem in creating any AGI would be being able to have a scoring function that is intermediate to your final goal - Matt" ID="ID_525668096" CREATED="1544230072337" MODIFIED="1544240781455"/>
+</node>
 </node>
 </node>
 </map>
