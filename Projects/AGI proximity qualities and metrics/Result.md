@@ -1,7 +1,7 @@
-Qualities and metrics of an AGI system that can tell us if we are approaching safe AGI creation or not.
+Intermediate tests that can tell us if we are approaching AGI creation or not.
 
-Qualities:
+Automated tests:
 
 * transfer learning
 
-Metrics:
+Manual tests:
