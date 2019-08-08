@@ -69,7 +69,6 @@
 <edge COLOR="#ff0000"/>
 <node TEXT="Formalizing goals - puffnfresh" ID="ID_190139588" CREATED="1544219962394" MODIFIED="1545308842270"/>
 <node TEXT="Formalizing decision processes - puffnfresh" ID="ID_807095631" CREATED="1545429776554" MODIFIED="1545429786712"/>
-<node TEXT="High level architectural diagram of existing AGI systems - Freeman" ID="ID_1654077132" CREATED="1544222606259" MODIFIED="1545308858031"/>
 <node TEXT="Plan and Prediction - Freeman" ID="ID_1282336496" CREATED="1544222635200" MODIFIED="1545308825620"/>
 <node TEXT="Causation and Correlation - Freeman" FOLDED="true" ID="ID_982672590" CREATED="1545308801237" MODIFIED="1545308817342">
 <node TEXT="Causation always implies correlation" ID="ID_1521747844" CREATED="1546636805684" MODIFIED="1546636814559"/>
@@ -85,7 +84,6 @@
 </node>
 <node TEXT="Defining General Intelligence - Matthias" ID="ID_1964373822" CREATED="1544238750293" MODIFIED="1545308875747"/>
 <node TEXT="How do we deal with perception when evaluating a plan and/or prediction - Joe" ID="ID_487717506" CREATED="1544233293815" MODIFIED="1544233305906"/>
-<node TEXT="AIRIS Architecture - Berick" ID="ID_1397684125" CREATED="1546636730973" MODIFIED="1546636759662"/>
 <node TEXT="How to have enough patience to allow AGI to grow-up? - Joe" ID="ID_1504636723" CREATED="1547252178230" MODIFIED="1547252181351"/>
 <node TEXT="allowing an AGI to not serve human desires - Joe" ID="ID_315712436" CREATED="1547252194574" MODIFIED="1547252196959"/>
 <node TEXT="how to have the patience to allow the AGI to make mistakes and not immediately think its a bug - Berick" ID="ID_1633166572" CREATED="1547252213433" MODIFIED="1547252216460"/>
@@ -150,6 +148,10 @@
 </node>
 <node TEXT="11-01-2019" ID="ID_9443750" CREATED="1547848304449" MODIFIED="1547848308795">
 <node TEXT="Project AGI metrics / qualities" ID="ID_331206838" CREATED="1547252162025" MODIFIED="1547252168894"/>
+</node>
+<node TEXT="23-03-2019" ID="ID_457041397" CREATED="1553384618446" MODIFIED="1553384622567">
+<node TEXT="High level architectural diagram of existing AGI systems - Freeman" ID="ID_1654077132" CREATED="1544222606259" MODIFIED="1545308858031"/>
+<node TEXT="AIRIS Architecture Explanation" ID="ID_1101842348" CREATED="1553384627501" MODIFIED="1553384634879"/>
 </node>
 </node>
 </node>
