@@ -1,6 +1,9 @@
+{-# LANGUAGE TemplateHaskell #-}
+
 module Lib where
 
 import Control.Monad
+import Development.Placeholders
 
 run :: WorldState -> IO ()
 run startingWorldState =
@@ -8,10 +11,10 @@ run startingWorldState =
     $ run (action startingWorldState)
 
 goalAchieved :: WorldState -> GoalAchievementState
-goalAchieved worldState = undefined
+goalAchieved worldState = $notImplemented
 
 action :: WorldState -> WorldState
-action worldState = undefined
+action worldState = $notImplemented
 
 data WorldState = WorldState {
   time :: Time,

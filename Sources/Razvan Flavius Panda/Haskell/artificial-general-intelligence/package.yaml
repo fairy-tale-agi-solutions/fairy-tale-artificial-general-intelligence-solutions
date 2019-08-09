@@ -24,6 +24,8 @@ dependencies:
 
 library:
   source-dirs: src
+  dependencies:
+  - placeholders
 
 executables:
   artificial-general-intelligence-exe:
