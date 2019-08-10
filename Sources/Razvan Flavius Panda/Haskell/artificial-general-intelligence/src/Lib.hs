@@ -2,7 +2,7 @@
 
 module Lib where
 
-import Control.Monad
+import Data.List (sortOn)
 import Development.Placeholders
 
 runAGIWithDefaults :: IO ()
@@ -27,7 +27,24 @@ goalAchieved worldState = $notImplemented
 
 -- |Performs an action towards achieving a goal
 goalAction :: WorldState -> WorldState
-goalAction worldState = $notImplemented
+goalAction worldState =
+  let action = findAction worldState in performAction action worldState
+
+findAction :: WorldState -> Action
+findAction worldState =
+  snd $ head $ sortOn fst $ mapAction <$> actions
+  where
+    actions = allPossibleActions worldState
+    mapAction action = (goalProximity action worldState, action)
+
+goalProximity :: Action -> WorldState -> Double
+goalProximity worldState = $notImplemented
+
+allPossibleActions :: WorldState -> [Action]
+allPossibleActions worldState = $notImplemented
+
+performAction :: Action -> WorldState -> WorldState
+performAction action worldState = $notImplemented
 
 -- |Reads information from sensors
 readWorldStateChange :: IO WorldStateChange
@@ -54,6 +71,8 @@ data InternalState = InternalState {
   worldLine :: Maybe [WorldState] -- TODO fix infinite(TM) recursivity
 }
 
-data Goal = Goal
+data Goal = FiniteGoal | InfiniteGoal
 
 data GoalAchievementState = Achieved | InProgress | Failed
+
+data Action = Action
