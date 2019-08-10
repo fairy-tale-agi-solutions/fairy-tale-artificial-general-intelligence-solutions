@@ -6,8 +6,8 @@ import Control.Monad
 import Development.Placeholders
 
 runAGI :: WorldState -> IO ()
-runAGI startingWorldState = do
-  currentWorldState <- updateWorldState startingWorldState
+runAGI previousWorldState = do
+  currentWorldState <- updateWorldState previousWorldState
   let goalState = goalAchieved currentWorldState
   runAGI $ if goalState == Searching
     then goalAction currentWorldState
