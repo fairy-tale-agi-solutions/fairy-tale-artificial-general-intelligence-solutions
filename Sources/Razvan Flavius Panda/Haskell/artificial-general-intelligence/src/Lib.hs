@@ -8,10 +8,9 @@ import Development.Placeholders
 runAGI :: WorldState -> IO ()
 runAGI previousWorldState = do
   currentWorldState <- updateWorldState previousWorldState
-  let goalState = goalAchieved currentWorldState
-  runAGI $ if goalState == Searching
-    then goalAction currentWorldState
-    else currentWorldState
+  runAGI $ case goalAchieved currentWorldState of
+      Searching -> goalAction currentWorldState
+      _         -> currentWorldState
 
 -- |Updates passed world state model with new world state model data coming from sensors
 updateWorldState :: WorldState -> IO WorldState
@@ -42,4 +41,4 @@ data InternalState = InternalState {
 
 data Goal = Goal
 
-data GoalAchievementState = Achieved | Failed | Searching deriving Eq
+data GoalAchievementState = Achieved | Failed | Searching
