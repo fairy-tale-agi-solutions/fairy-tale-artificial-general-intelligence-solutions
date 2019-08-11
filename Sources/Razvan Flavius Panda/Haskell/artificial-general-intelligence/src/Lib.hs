@@ -2,7 +2,7 @@
 
 module Lib where
 
-import Data.List (sortOn)
+import Data.List (find, sortOn)
 import Data.Maybe (isJust)
 import Development.Placeholders
 
@@ -34,11 +34,10 @@ goalAction worldState =
 
 findAction :: WorldState -> Maybe Action
 findAction worldState =
-  if null proximitiesAndActions then Nothing else Just $ snd $ head proximitiesAndActions
+  fmap snd . find (isJust . fst) $ sortOn fst $ mapAction <$> actions
   where
     actions = allPossibleActions worldState
     mapAction action = (goalProximity $ performAction (Just action) worldState, action)
-    proximitiesAndActions = filter (isJust . fst) $ sortOn fst $ mapAction <$> actions
 
 goalProximity :: WorldState -> Maybe Double
 goalProximity worldState = $notImplemented
