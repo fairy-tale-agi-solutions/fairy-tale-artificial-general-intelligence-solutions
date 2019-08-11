@@ -45,6 +45,8 @@ goalProximity worldState = $notImplemented
 allPossibleActions :: WorldState -> [Action]
 allPossibleActions worldState = $notImplemented
 
+-- TODO need to handle output actions
+-- probably in runAGI by using stored action
 performAction :: Maybe Action -> WorldState -> WorldState
 performAction action worldState = $notImplemented
 
