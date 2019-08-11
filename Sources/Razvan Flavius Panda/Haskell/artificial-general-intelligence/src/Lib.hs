@@ -3,11 +3,13 @@
 module Lib where
 
 import Data.List (sortOn)
+import Data.Maybe (isJust)
 import Development.Placeholders
 
 runAGIWithDefaults :: IO ()
 runAGIWithDefaults = runAGI $ WorldState Nothing Nothing Nothing
 
+-- |Runs the AGI starting with provided WorldState, requires infinite resources
 runAGI :: WorldState -> IO ()
 runAGI previousWorldState = do
   currentWorldState <- updateWorldState previousWorldState
@@ -32,12 +34,12 @@ goalAction worldState =
 
 findAction :: WorldState -> Action
 findAction worldState =
-  snd $ head $ sortOn fst $ mapAction <$> actions
+  snd $ head $ filter (isJust . fst) $ sortOn fst $ mapAction <$> actions
   where
     actions = allPossibleActions worldState
     mapAction action = (goalProximity $ performAction action worldState, action)
 
-goalProximity :: WorldState -> Double
+goalProximity :: WorldState -> Maybe Double
 goalProximity worldState = $notImplemented
 
 allPossibleActions :: WorldState -> [Action]
