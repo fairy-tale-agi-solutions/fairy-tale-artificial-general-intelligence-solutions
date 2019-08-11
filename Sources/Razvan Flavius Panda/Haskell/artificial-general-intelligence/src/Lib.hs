@@ -32,12 +32,13 @@ goalAction :: WorldState -> WorldState
 goalAction worldState =
   let action = findAction worldState in performAction action worldState
 
-findAction :: WorldState -> Action
+findAction :: WorldState -> Maybe Action
 findAction worldState =
-  snd $ head $ filter (isJust . fst) $ sortOn fst $ mapAction <$> actions
+  if null proximitiesAndActions then Nothing else Just $ snd $ head proximitiesAndActions
   where
     actions = allPossibleActions worldState
-    mapAction action = (goalProximity $ performAction action worldState, action)
+    mapAction action = (goalProximity $ performAction (Just action) worldState, action)
+    proximitiesAndActions = filter (isJust . fst) $ sortOn fst $ mapAction <$> actions
 
 goalProximity :: WorldState -> Maybe Double
 goalProximity worldState = $notImplemented
@@ -45,7 +46,7 @@ goalProximity worldState = $notImplemented
 allPossibleActions :: WorldState -> [Action]
 allPossibleActions worldState = $notImplemented
 
-performAction :: Action -> WorldState -> WorldState
+performAction :: Maybe Action -> WorldState -> WorldState
 performAction action worldState = $notImplemented
 
 -- |Reads information from sensors
