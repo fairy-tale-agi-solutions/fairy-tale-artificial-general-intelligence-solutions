@@ -35,9 +35,9 @@ findAction worldState =
   snd $ head $ sortOn fst $ mapAction <$> actions
   where
     actions = allPossibleActions worldState
-    mapAction action = (goalProximity action worldState, action)
+    mapAction action = (goalProximity $ performAction action worldState, action)
 
-goalProximity :: Action -> WorldState -> Double
+goalProximity :: WorldState -> Double
 goalProximity worldState = $notImplemented
 
 allPossibleActions :: WorldState -> [Action]
@@ -71,7 +71,7 @@ data InternalState = InternalState {
   worldLine :: Maybe [WorldState] -- TODO fix infinite(TM) recursivity
 }
 
-data Goal = FiniteGoal | InfiniteGoal
+data Goal = TimelessGoal | FiniteGoal | InfiniteGoal
 
 data GoalAchievementState = Achieved | InProgress | Failed
 
