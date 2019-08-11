@@ -5,6 +5,7 @@ module Lib where
 import Control.Monad (join)
 import Data.List (find, sortOn, sort)
 import Data.Maybe (isJust, listToMaybe)
+import Numeric.Natural (Natural)
 import Development.Placeholders
 
 runAGIWithDefaults :: IO ()
@@ -42,7 +43,7 @@ findAction worldState =
     actions = allPossibleActions worldState
     mapAction action = (goalProximity $ simulateAction action worldState, action)
 
-goalProximity :: WorldState -> Maybe Integer
+goalProximity :: WorldState -> Maybe Natural
 goalProximity worldState =
   case goalAchieved worldState of
        Achieved   -> Just 0
