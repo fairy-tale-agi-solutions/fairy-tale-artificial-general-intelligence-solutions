@@ -2,8 +2,9 @@
 
 module Lib where
 
-import Data.List (find, sortOn)
-import Data.Maybe (isJust)
+import Control.Monad (join)
+import Data.List (find, sortOn, sort)
+import Data.Maybe (isJust, listToMaybe)
 import Development.Placeholders
 
 runAGIWithDefaults :: IO ()
@@ -39,15 +40,23 @@ findAction worldState =
   fmap snd . find (isJust . fst) $ sortOn fst $ mapAction <$> actions
   where
     actions = allPossibleActions worldState
-    mapAction action = (goalProximity $ simulateAction (Just action) worldState, action)
+    mapAction action = (goalProximity $ simulateAction action worldState, action)
 
-goalProximity :: WorldState -> Maybe Double
-goalProximity worldState = $notImplemented
+goalProximity :: WorldState -> Maybe Integer
+goalProximity worldState =
+  case goalAchieved worldState of
+       Achieved   -> Just 0
+       Failed     -> Nothing
+       InProgress -> (+1) <$> join shortestPath
+  where
+    shortestPath = listToMaybe $ sort $ mapAction <$> actions
+    mapAction action = goalProximity $ simulateAction action worldState
+    actions = allPossibleActions worldState
 
 allPossibleActions :: WorldState -> [Action]
 allPossibleActions worldState = $notImplemented
 
-simulateAction :: Maybe Action -> WorldState -> WorldState
+simulateAction :: Action -> WorldState -> WorldState
 simulateAction action worldState = $notImplemented
 
 -- |Reads information from sensors
