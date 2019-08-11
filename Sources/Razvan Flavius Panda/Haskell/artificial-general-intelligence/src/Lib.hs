@@ -13,9 +13,12 @@ runAGIWithDefaults = runAGI $ WorldState Nothing Nothing Nothing
 runAGI :: WorldState -> IO ()
 runAGI previousWorldState = do
   currentWorldState <- updateWorldState previousWorldState
+  let action = findAction currentWorldState
+  nextWorldState <- goalAction action currentWorldState
   runAGI $ case goalAchieved currentWorldState of
-      InProgress -> goalAction currentWorldState
+      InProgress -> nextWorldState
       _          -> currentWorldState
+
 
 -- |Updates passed world state model with new world state model data coming from sensors
 updateWorldState :: WorldState -> IO WorldState
@@ -28,16 +31,15 @@ goalAchieved :: WorldState -> GoalAchievementState
 goalAchieved worldState = $notImplemented
 
 -- |Performs an action towards achieving a goal
-goalAction :: WorldState -> WorldState
-goalAction worldState =
-  let action = findAction worldState in performAction action worldState
+goalAction :: Maybe Action -> WorldState -> IO WorldState
+goalAction action worldState = $notImplemented
 
 findAction :: WorldState -> Maybe Action
 findAction worldState =
   fmap snd . find (isJust . fst) $ sortOn fst $ mapAction <$> actions
   where
     actions = allPossibleActions worldState
-    mapAction action = (goalProximity $ performAction (Just action) worldState, action)
+    mapAction action = (goalProximity $ simulateAction (Just action) worldState, action)
 
 goalProximity :: WorldState -> Maybe Double
 goalProximity worldState = $notImplemented
@@ -45,10 +47,8 @@ goalProximity worldState = $notImplemented
 allPossibleActions :: WorldState -> [Action]
 allPossibleActions worldState = $notImplemented
 
--- TODO need to handle output actions
--- probably in runAGI by using stored action
-performAction :: Maybe Action -> WorldState -> WorldState
-performAction action worldState = $notImplemented
+simulateAction :: Maybe Action -> WorldState -> WorldState
+simulateAction action worldState = $notImplemented
 
 -- |Reads information from sensors
 readWorldStateChange :: IO WorldStateChange
