@@ -26,6 +26,8 @@ library:
   source-dirs: src
   dependencies:
   - placeholders
+  - template-haskell
+  - hint
 
 executables:
   artificial-general-intelligence-exe:

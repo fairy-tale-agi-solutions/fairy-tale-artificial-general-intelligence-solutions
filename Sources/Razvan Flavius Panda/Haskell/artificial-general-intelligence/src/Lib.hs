@@ -7,11 +7,12 @@
 
 module Lib where
 
-import Control.Monad (join)
-import Data.List (find, sortOn, sort)
-import Data.Maybe (isJust, listToMaybe)
-import Numeric.Natural (Natural)
-import Development.Placeholders
+import           Control.Monad              (join)
+import           Data.List                  (find, sort, sortOn)
+import           Data.Maybe                 (isJust, listToMaybe)
+import           Development.Placeholders
+import           Language.Haskell.TH.Syntax
+import           Numeric.Natural            (Natural)
 
 runAGIWithDefaults :: IO ()
 runAGIWithDefaults = runAGI $ WorldState Nothing Nothing Nothing
@@ -77,7 +78,7 @@ mergeChangeIntoWorldState worldStateChange worldState = $notImplemented
 data WorldStateChange = WorldStateChange
 
 data WorldState = WorldState {
-  time :: Maybe Time,
+  time          :: Maybe Time,
   externalState :: Maybe ExternalState,
   internalState :: Maybe InternalState
 }
@@ -87,11 +88,9 @@ data Time = Time
 data ExternalState = ExternalState
 
 data InternalState = InternalState {
-  goal :: Maybe Goal,
+  goal      :: Maybe Exp,
   worldLine :: Maybe [WorldState] -- TODO fix infinite(TM) recursivity
 }
-
-data Goal = Goal
 
 data GoalType = TimelessGoal | FiniteGoal | InfiniteGoal
 
