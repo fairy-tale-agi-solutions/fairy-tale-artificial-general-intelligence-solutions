@@ -1,3 +1,8 @@
+-- Project priority list
+-- * code AGI that runs using unlimited resources
+-- * construct a goal that is good humanity
+-- * optimize the AGI code to run in a timely manner
+
 {-# LANGUAGE TemplateHaskell #-}
 
 module Lib where
@@ -11,7 +16,7 @@ import Development.Placeholders
 runAGIWithDefaults :: IO ()
 runAGIWithDefaults = runAGI $ WorldState Nothing Nothing Nothing
 
--- |Runs the AGI starting with provided WorldState, requires infinite resources
+-- |Runs the AGI starting with provided WorldState
 runAGI :: WorldState -> IO ()
 runAGI previousWorldState = do
   currentWorldState <- updateWorldState previousWorldState
@@ -43,6 +48,7 @@ findAction worldState =
     actions = allPossibleActions worldState
     mapAction action = (goalProximity $ simulateAction action worldState, action)
 
+-- TODO optimization: make it work as A*
 goalProximity :: WorldState -> Maybe Natural
 goalProximity worldState =
   case goalAchieved worldState of
@@ -85,7 +91,9 @@ data InternalState = InternalState {
   worldLine :: Maybe [WorldState] -- TODO fix infinite(TM) recursivity
 }
 
-data Goal = TimelessGoal | FiniteGoal | InfiniteGoal
+data Goal = Goal
+
+data GoalType = TimelessGoal | FiniteGoal | InfiniteGoal
 
 data GoalAchievementState = Achieved | InProgress | Failed
 
