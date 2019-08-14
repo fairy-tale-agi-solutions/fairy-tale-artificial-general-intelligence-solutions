@@ -1,6 +1,6 @@
 -- Project priority list
--- * code AGI that runs using unlimited resources
--- * construct a goal that is good humanity
+-- * code AGI that runs using unlimited resources for non trivial goals
+-- * construct a goal that is good for humanity
 -- * optimize the AGI code to run in a timely manner
 
 {-# LANGUAGE TemplateHaskell #-}
