@@ -50,3 +50,4 @@ tests:
     - -with-rtsopts=-N
     dependencies:
     - artificial-general-intelligence
+    - hedgehog

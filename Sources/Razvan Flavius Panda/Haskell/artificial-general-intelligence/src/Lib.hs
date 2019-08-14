@@ -43,7 +43,14 @@ goalAction :: Maybe Action -> WorldState -> IO WorldState
 goalAction action worldState = $notImplemented
 
 findAction :: WorldState -> Maybe Action
-findAction worldState =
+findAction = findActionMockable allPossibleActions goalProximity simulateAction
+
+findActionMockable ::
+  (WorldState -> [Action]) ->
+  (WorldState -> Maybe Natural) ->
+  (Action -> WorldState -> WorldState) ->
+  WorldState -> Maybe Action
+findActionMockable allPossibleActions goalProximity simulateAction worldState =
   fmap snd . find (isJust . fst) $ sortOn fst $ mapAction <$> actions
   where
     actions = allPossibleActions worldState
