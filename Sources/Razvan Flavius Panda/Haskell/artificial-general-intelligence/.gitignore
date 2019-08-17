@@ -1,3 +1,5 @@
+dist-newstyle/
+result
 .stack-work/
 dist/
 artificial-general-intelligence.cabal

@@ -1,8 +1,3 @@
--- Project priority list
--- * code AGI that runs using unlimited resources for non trivial goals
--- * construct a goal that is good for humanity
--- * optimize the AGI code to run in a timely manner
-
 {-# LANGUAGE TemplateHaskell #-}
 
 module Lib where
@@ -13,6 +8,11 @@ import           Data.Maybe                 (isJust, listToMaybe)
 import           Development.Placeholders
 import           Language.Haskell.TH.Syntax
 import           Numeric.Natural            (Natural)
+
+-- Project priority list
+-- * code AGI that runs using unlimited resources for non trivial goals
+-- * construct a goal that is good for humanity
+-- * optimize the AGI code to run in a timely manner
 
 runAGIWithDefaults :: IO ()
 runAGIWithDefaults = runAGI $ WorldState Nothing Nothing Nothing

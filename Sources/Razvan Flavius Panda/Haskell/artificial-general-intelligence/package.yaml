@@ -51,3 +51,4 @@ tests:
     dependencies:
     - artificial-general-intelligence
     - hedgehog
+    - hedgehog-fn
