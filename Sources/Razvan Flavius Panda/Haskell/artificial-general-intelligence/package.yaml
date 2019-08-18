@@ -28,6 +28,8 @@ library:
   - placeholders
   - template-haskell
   - hint
+  - hedgehog
+  - hedgehog-fn
 
 executables:
   artificial-general-intelligence-exe:
