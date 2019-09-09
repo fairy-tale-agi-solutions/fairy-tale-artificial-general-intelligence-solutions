@@ -13,6 +13,7 @@ We are working on:
 * excellence - we will do our best to create the best solutions
 * focus - we will work on the most important problems humanity is facing
 * perseverance - we will not give up until it makes sense to do so and try a different approach
+* anything being said needs to be backed up by evidence or proofs
 * honesty
 * trust
 * respect
