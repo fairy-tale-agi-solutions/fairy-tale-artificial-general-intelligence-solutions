@@ -23,6 +23,6 @@ We are working on:
 
 ## Communication channels
 
-* [Slack - this is where we coordinate our work)](https://join.slack.com/t/fairy-tale-agi/shared_invite/enQtNzQ4MTU4MzMwMzkxLTg5NzEyNWYyNDNjM2RlYTY3YmJjZTdiMGEyYWQxZWZjOWVlMzg2NDM3NGQxYzU2YmY3OWFjYWE3YzZmNDBkZDQ)
+* [Slack - this is where we coordinate our work](https://join.slack.com/t/fairy-tale-agi/shared_invite/enQtNzQ4MTU4MzMwMzkxLTg5NzEyNWYyNDNjM2RlYTY3YmJjZTdiMGEyYWQxZWZjOWVlMzg2NDM3NGQxYzU2YmY3OWFjYWE3YzZmNDBkZDQ)
 * [Discord about AGI - we use it for screen sharing calls, etc.](https://discord.gg/6hGWSNA)
 * [Facebook page](https://www.facebook.com/fairy.tale.artificial.general.intelligence/)
