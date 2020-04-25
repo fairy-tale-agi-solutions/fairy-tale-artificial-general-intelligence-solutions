@@ -2,10 +2,7 @@
 
 We are a worldwide community dedicated to helping humanity create safe artificial general intelligence.
 
-We are working on:
-
-* free and open source software projects
-* commercial and open source software projects
+We are working on free and commercial open source software that will provide great gains in accelerating human progress towards safe AGI.
 
 ## Our core values are
 
@@ -24,5 +21,6 @@ We are working on:
 ## Communication channels
 
 * [Slack - this is where we coordinate our work](https://join.slack.com/t/fairy-tale-agi/shared_invite/enQtNzQ4MTU4MzMwMzkxLTg5NzEyNWYyNDNjM2RlYTY3YmJjZTdiMGEyYWQxZWZjOWVlMzg2NDM3NGQxYzU2YmY3OWFjYWE3YzZmNDBkZDQ)
-* [Discord about AGI - we use it for screen sharing calls, etc.](https://discord.gg/6hGWSNA)
+* [Human Level Artificial Intelligence Discord - we use it for screen sharing calls, etc.](https://discord.gg/6hGWSNA)
 * [Facebook page](https://www.facebook.com/fairy.tale.artificial.general.intelligence/)
+* [LinkedIn page](http://linkedin.com/company/fairy-tale-artificial-general-intelligence-solutions)
