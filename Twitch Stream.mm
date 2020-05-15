@@ -1,7 +1,7 @@
 <map version="freeplane 1.7.0">
 <!--To view this file, download free mind mapping software Freeplane from http://freeplane.sourceforge.net -->
-<node TEXT="Twitch&#xa;Stream" LOCALIZED_STYLE_REF="defaultstyle.attributes" FOLDED="false" ID="ID_1656279608" CREATED="1544219747385" MODIFIED="1589238401243"><hook NAME="MapStyle" zoom="2.596">
-    <properties fit_to_viewport="false" edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff"/>
+<node TEXT="Twitch&#xa;Stream" LOCALIZED_STYLE_REF="defaultstyle.attributes" FOLDED="false" ID="ID_1656279608" CREATED="1544219747385" MODIFIED="1589238401243"><hook NAME="MapStyle" zoom="3.142">
+    <properties edgeColorConfiguration="#808080ff,#ff0000ff,#0000ffff,#00ff00ff,#ff00ffff,#00ffffff,#7c0000ff,#00007cff,#007c00ff,#7c007cff,#007c7cff,#7c7c00ff" fit_to_viewport="false"/>
 
 <map_styles>
 <stylenode LOCALIZED_TEXT="styles.root_node" STYLE="oval" UNIFORM_SHAPE="true" VGAP_QUANTITY="24.0 pt">
@@ -123,6 +123,21 @@
 </node>
 <node TEXT="This Week" LOCALIZED_STYLE_REF="defaultstyle.attributes" POSITION="left" ID="ID_1222115178" CREATED="1587845843098" MODIFIED="1589238401248">
 <edge STYLE="horizontal"/>
+<node TEXT="Teams &gt;&gt; 1 Person" LOCALIZED_STYLE_REF="defaultstyle.attributes" ID="ID_315719891" CREATED="1589144801669" MODIFIED="1589566403916">
+<edge STYLE="horizontal"/>
+<node TEXT="Teams &gt;&gt; 1 Person" LOCALIZED_STYLE_REF="defaultstyle.attributes" ID="ID_1091040800" CREATED="1589146622281" MODIFIED="1589566415550">
+<edge STYLE="horizontal"/>
+</node>
+<node TEXT="[Person] &gt;&gt; GenericHumanBeing" LOCALIZED_STYLE_REF="defaultstyle.attributes" ID="ID_923188582" CREATED="1589146570134" MODIFIED="1589566500261">
+<edge STYLE="horizontal"/>
+</node>
+</node>
+<node TEXT="Decisions which are&#xa;(High Level | Abstract | Vague)" LOCALIZED_STYLE_REF="defaultstyle.attributes" ID="ID_731085551" CREATED="1589144820451" MODIFIED="1589238401254">
+<edge STYLE="horizontal"/>
+</node>
+<node TEXT="General Intelligence and Super Intelligence" LOCALIZED_STYLE_REF="defaultstyle.attributes" ID="ID_1135067181" CREATED="1589144810518" MODIFIED="1589566673285">
+<edge STYLE="horizontal"/>
+</node>
 </node>
 <node TEXT="AGI&#xa;Implementation" LOCALIZED_STYLE_REF="defaultstyle.attributes" FOLDED="true" POSITION="right" ID="ID_14806896" CREATED="1565463558237" MODIFIED="1589238401248">
 <edge STYLE="horizontal"/>
@@ -367,12 +382,12 @@
 </node>
 <node TEXT="10-05-2020" LOCALIZED_STYLE_REF="defaultstyle.attributes" FOLDED="true" ID="ID_1261659892" CREATED="1589144617709" MODIFIED="1589238401254">
 <edge STYLE="horizontal"/>
-<node TEXT="Teams of Heroes &gt;&gt; 1 Hero" LOCALIZED_STYLE_REF="defaultstyle.attributes" FOLDED="true" ID="ID_219115604" CREATED="1589144801669" MODIFIED="1589238401254">
+<node TEXT="Teams &gt;&gt; 1 Person" LOCALIZED_STYLE_REF="defaultstyle.attributes" ID="ID_219115604" CREATED="1589144801669" MODIFIED="1589566403916">
 <edge STYLE="horizontal"/>
-<node TEXT="Teams of Heroes &gt;&gt; 1 Hero" LOCALIZED_STYLE_REF="defaultstyle.attributes" ID="ID_1777132548" CREATED="1589146622281" MODIFIED="1589238401254">
+<node TEXT="Teams &gt;&gt; 1 Person" LOCALIZED_STYLE_REF="defaultstyle.attributes" ID="ID_1777132548" CREATED="1589146622281" MODIFIED="1589566415550">
 <edge STYLE="horizontal"/>
 </node>
-<node TEXT="[IHero] &gt;&gt; [Hero]" LOCALIZED_STYLE_REF="defaultstyle.attributes" ID="ID_1937439837" CREATED="1589146570134" MODIFIED="1589238401254">
+<node TEXT="[Person] &gt;&gt; GenericHumanBeing" LOCALIZED_STYLE_REF="defaultstyle.attributes" ID="ID_1937439837" CREATED="1589146570134" MODIFIED="1589566500261">
 <edge STYLE="horizontal"/>
 </node>
 </node>

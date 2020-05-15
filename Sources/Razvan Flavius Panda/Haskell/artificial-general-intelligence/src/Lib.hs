@@ -45,6 +45,13 @@ goalAction action worldState = $notImplemented
 findAction :: WorldState -> Maybe Action
 findAction = findActionMockable allPossibleActions goalProximity simulateAction
 
+
+
+-- currently only implemented for FiniteGoal
+-- and what it does it optimize for minimal time duration
+-- and is not paralelized at all
+-- could be optimized using paralelization via
+-- CPU, GPU, TPU, Quantum Processor, etc.
 findActionMockable ::
   (WorldState -> [Action]) ->
   (WorldState -> Maybe Natural) ->
@@ -99,7 +106,10 @@ data InternalState = InternalState {
   worldLine :: Maybe [WorldState] -- TODO fix infinite(TM) recursivity
 }
 
-data GoalType = TimelessGoal | FiniteGoal | InfiniteGoal
+data GoalType =
+  ConstraintsOverSomePeriodOfTime | -- eg. "run at about 15 km/h for 10 minutes"
+  FiniteGoal |   -- a Goal which you can achieve at some point in time. eg. "get groceries today"
+  InfiniteGoal   -- a Goal which can never be achieved but can be pursued eg. "personal improvement"
 
 data GoalAchievementState = Achieved | InProgress | Failed
 
