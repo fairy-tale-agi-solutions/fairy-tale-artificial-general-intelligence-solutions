@@ -12,9 +12,16 @@ Working on free and open source software:
 * software which it targeted at accelerating the pace of science done by humanity
 * software for increasing the efficiency of achieving goals / doing tasks
 
+We are working on free and open source software because I think that would be the most efficient way of achieving our goals.
+
 ## Approach to safe human-level AI and good future for sentient beings
 
-<!-- TODO -->
+Approaching this from two directions:
+
+* improve efficiency of humanity by helping reduce resource consumption, decreasing the time required to achieve goals and improving the rate at which science is done
+* ensure creation of safe human-level AI through proper science-based methods
+
+Both goals above will be mainly worked on through creation of free and open source software.
 
 ## Our core values are
 
