@@ -1,3 +1,5 @@
+# Fairy Tale - Artificial General Intelligence Solutions
+
 ## Organization main goal
 
 We are a worldwide community dedicated to ensuring a good future for sentient beings.
