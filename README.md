@@ -6,7 +6,15 @@ We are a worldwide community dedicated to ensuring a good future for sentient be
 
 Helping humanity create safe human-level artificial intelligence (artificial general intelligence) as soon as possible.
 
-We are working on free and open source software that will provide great gains in accelerating human progress towards safe HLAI (AGI).
+Working on free and open source software:
+
+* software that will provide great gains in accelerating human progress towards safe HLAI (AGI)
+* software which it targeted at accelerating the pace of science done by humanity
+* software for increasing the efficiency of achieving goals / doing tasks
+
+## Approach to safe human-level AI and good future for sentient beings
+
+<!-- TODO -->
 
 ## Our core values are
 
@@ -22,7 +30,7 @@ We are working on free and open source software that will provide great gains in
 * loyalty
 * open mindedness
 
-## Communication channels
+## Communication channel
 
 * [Human Level Artificial Intelligence Discord - we use it for screen sharing calls, etc.](https://discord.gg/6hGWSNA)
 <!--
